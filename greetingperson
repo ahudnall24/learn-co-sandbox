@@ -1,0 +1,32 @@
+def greeting_a_person(Maria)
+  puts "Hello #{Maria}"
+  end
+  
+  greeting_a_person("Maria")
+# => "Hello Maria"
+
+name = "Maria"
+greeting_a_person(name)
+# => "Hello Maria"
+
+def greeting_a_person(Ruby)
+  puts "Hello #{Ruby}"
+  end
+  
+  def greeting_a_person
+    puts "Hello #{Steven}"
+    end
+    
+  def greeting_a_person
+    puts "Hello #{Elixir}"
+    end
+    
+def greeting_programmer(name, language)
+  puts "Hello, #{name}. We heard you are a great #{language} programmer."
+end
+ 
+greeting_programmer("Maria", "Ruby")
+# > Hello, Maria. We heard you are a great Ruby programmer.
+ 
+greeting_programmer("Steven", "Elixir")
+# > Hello, Steven. We heard you are a great Elixir programmer.
